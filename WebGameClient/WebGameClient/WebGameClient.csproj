@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="SFML.Net" Version="2.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Self2D, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Self2D\Self2D\bin\Debug\net5.0\Self2D.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
